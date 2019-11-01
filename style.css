@@ -1,0 +1,56 @@
+.container {
+  width: 1192px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/* services style */
+
+.services {
+  padding: 5rem 0;
+}
+
+.services-name {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 0rem 0rem;
+}
+
+.descriotion {
+  padding-right: 5.7rem;
+}
+
+.prop {
+  color: orange;
+}
+
+.div-cont {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  display:inline-block;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative
+
+
+}
+
+.div-cont p {
+    color: gray;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
